@@ -1,0 +1,29 @@
+package lunes;
+
+import java.util.Scanner;
+
+public class CondicionalSimple{
+
+public static void main(String[] args){
+
+Scanner scan = new Scanner(System.in);
+
+ System.out.print("Ingrese su edad: ");
+ int edad = scan.nextInt();
+ 
+ if (edad >= 18){
+System.out.println("Eres mayor de edad.");
+
+ }
+
+ System.out.println("Eres mayor de edad ");
+
+}
+
+System.out.println("Gracias por usar el programa. ");
+
+scan.close();
+
+}
+
+}

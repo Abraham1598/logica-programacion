@@ -1,0 +1,32 @@
+package lunes;
+
+public class OperadoresBasicos {
+
+    public static void main(String[] args){
+
+int a = 10;
+int b = 5;
+
+// Operaciones basicas 
+int sumas = a + b ;
+int resta = a - b;
+int multiplicacion = a * b;
+double division = (double) a/ b;
+int modulo = a % b;
+
+// Resultados
+System.out.println(" Operaciones entre " + a + " y " + b + ":");
+System.out.println(" Suma: " + sumas);
+System.out.println(" Resta: " + resta);       
+System.out.println(" Multiplicacion: " + multiplicacion);
+System.out.println(" Division: " + division);
+System.out.println(" Modulo: " + modulo); 
+
+
+
+    }
+
+
+
+
+}

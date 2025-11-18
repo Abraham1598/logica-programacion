@@ -1,38 +1,27 @@
 # 🧠 Semana 1 – Día Lunes: Condicionales
 
-## ✅ Ejercicios realizados
+# Día Lunes – Semana 1
 
-- Edad legal
-- Clasificación de notas
-- Día de la semana
+## Ejercicio 1: Operadores básicos
 
-## 🧪 Lenguajes utilizados
+### Enunciado
+Realizar operaciones aritméticas entre dos números enteros: suma, resta, multiplicación, división y módulo.
 
-- Java
-- Python
-- JavaScript
+### Casos de prueba
+| a | b | Suma | Resta | Multiplicación | División | Módulo |
+|---|---|------|-------|----------------|----------|--------|
+| 10| 3 | 13   | 7     | 30             | 3.33     | 1      |
 
-## 🔍 Diferencias entre lenguajes
+---
 
-| Aspecto            | Java                          | Python                        | JavaScript                    |
-|--------------------|-------------------------------|-------------------------------|-------------------------------|
-| Sintaxis           | Verbosa, requiere llaves `{}` | Compacta, depende de indentación | Flexible, similar a Java     |
-| Entrada de datos   | `Scanner`                     | `input()`                     | `prompt()` (en navegador)     |
-| Tipado             | Estático (`int`, `String`)    | Dinámico                      | Dinámico                      |
-| Estructura         | Requiere clase principal      | Script directo                | Script directo                |
+## Ejercicio 2: Condicional simple
 
-## 💡 Reflexión personal
+### Enunciado
+Solicitar la edad del usuario y mostrar un mensaje si es mayor de edad.
 
-> Hoy trabajé con estructuras condicionales en tres lenguajes.  
-> Python fue el más directo para lógica pura.  
-> Java me obligó a pensar en estructura y tipos, lo cual es útil para entrevistas.  
-> JavaScript fue cómodo por su similitud con Java y su uso en entornos web.  
-> Aprendí que la lógica es universal, lo que cambia es la sintaxis.
-
-## 📁 Archivos del día
-
-## 📌 Próximo paso
-
-- Reescribir los ejercicios usando funciones
-- Agregar validaciones de entrada
-- Subir los ejercicios con commits descriptivos
+### Casos de prueba
+| Edad | Resultado           |
+|------|---------------------|
+| 17   | Solo mensaje final  |
+| 18   | Mayor de edad       |
+| 25   | Mayor de edad       |

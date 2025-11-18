@@ -1,0 +1,52 @@
+# Semana 1 – Día Jueves
+
+## 🧮 Ejercicio 1: Calculadora en Java
+
+### Enunciado
+Crear una calculadora básica que permita al usuario ingresar dos números y una operación (`+`, `-`, `*`, `/`) y mostrar el resultado correspondiente.
+
+### Casos de prueba
+| Entrada           | Resultado esperado |
+|------------------|--------------------|
+| 10, 5, +         | 15                 |
+| 8, 2, /          | 4.0                |
+| 7, 3, *          | 21                 |
+| 9, 0, /          | Error: división por cero |
+
+---
+
+## 📅 Ejercicio 2: Días de la semana
+
+### Enunciado
+Solicitar al usuario un número del 1 al 7 y mostrar el día correspondiente. Implementado en tres lenguajes: Java, JSX (React) y Python.
+
+### Casos de prueba
+| Entrada | Salida esperada |
+|--------|------------------|
+| 1      | Lunes            |
+| 5      | Viernes          |
+| 7      | Domingo          |
+| 8      | Día inválido     |
+
+---
+
+## 🔞 Ejercicio 3: Edad legal
+
+### Enunciado
+Solicitar la edad del usuario y determinar si es mayor de edad (18 años o más). Implementado en Java, JSX (React) y Python.
+
+### Casos de prueba
+| Edad | Resultado           |
+|------|---------------------|
+| 17   | Menor de edad       |
+| 18   | Mayor de edad       |
+| 25   | Mayor de edad       |
+
+---
+
+## 🌐 Reflexión
+
+- Consolidé lógica condicional (`if`, `switch`) y entrada de datos en tres lenguajes distintos.
+- Practiqué cómo estructurar código en Java, Python y JSX, adaptando la lógica a cada sintaxis.
+- Aprendí a validar entradas, manejar errores como división por cero y a presentar resultados de forma clara.
+- Este día me ayudó a comparar estructuras entre lenguajes y reforzar mi pensamiento lógico.

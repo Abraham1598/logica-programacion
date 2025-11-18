@@ -1,0 +1,61 @@
+# Semana 1 – Día Miércoles
+
+## 🧮 Ejercicio 1: ElMayor
+
+### Enunciado
+Solicitar tres números al usuario y determinar cuál es el mayor. Si hay empate, indicarlo.
+
+### Casos de prueba
+| Entrada         | Salida esperada             |
+|----------------|-----------------------------|
+| 5, 10, 3        | El mayor es 10              |
+| 7, 7, 2         | El mayor es 7               |
+| 4, 4, 4         | Todos son iguales           |
+
+---
+
+## 🔢 Ejercicio 2: ListaNumeros
+
+### Enunciado
+Solicitar un número N y mostrar los números del 1 al N en una sola línea separados por comas.
+
+### Casos de prueba
+| Entrada | Salida esperada     |
+|--------|----------------------|
+| 5      | 1, 2, 3, 4, 5        |
+| 3      | 1, 2, 3              |
+
+---
+
+## 👋 Ejercicio 3: Saludos
+
+### Enunciado
+Solicitar el nombre del usuario y saludarlo con un mensaje personalizado.
+
+### Casos de prueba
+| Entrada | Salida esperada           |
+|--------|----------------------------|
+| Ana    | Hola, Ana. Bienvenida.     |
+| Luis   | Hola, Luis. Bienvenido.    |
+
+---
+
+## 🔤 Ejercicio 4: Vocales
+
+### Enunciado
+Solicitar una letra al usuario y verificar si es una vocal (a, e, i, o, u). Mostrar mensaje correspondiente.
+
+### Casos de prueba
+| Entrada | Salida esperada         |
+|--------|--------------------------|
+| a      | Es una vocal             |
+| b      | No es una vocal          |
+| E      | Es una vocal             |
+
+---
+
+## 🧠 Reflexión
+
+- Practiqué entrada de datos con `Scanner`, condicionales `if-else`, y bucles `for`.
+- Aprendí a validar caracteres y a manejar listas de salida con formato.
+- Mejoraría la modularidad creando funciones reutilizables para cada tipo de validación.

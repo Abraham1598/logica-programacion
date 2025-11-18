@@ -1,4 +1,4 @@
-package semana1;
+package semana1.DiaJueves;
 import java.util.Scanner;
 
 public class EdadLegal {
